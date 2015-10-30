@@ -4,13 +4,15 @@
   "description": "Dummy App",
   "main": "app.js",
   "dependencies": {
-    "mongodb": "^2.0.47",
     "babel": "^5.8.23",
     "chai": "^3.4.0",
-    "mocha": "^2.3.3"
+    "isparta": "^3.1.0",
+    "mocha": "^2.3.3",
+    "mongodb": "^2.0.47"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register --colors --reporter spec"
+    "test": "mocha --compilers js:babel/register --colors --reporter spec",
+    "cover": "babel-node node_modules/isparta/bin/isparta cover node_modules/mocha/bin/_mocha --report lcovonly -- --colors --reporter spec"
   },
   "author": "Carlos de Dios <c.dedios@outlook.com>",
   "license": "MIT"
