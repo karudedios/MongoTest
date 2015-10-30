@@ -4,16 +4,14 @@
   "description": "Dummy App",
   "main": "app.js",
   "dependencies": {
-    "mongodb": "^2.0.47"
+    "mongodb": "^2.0.47",
+    "babel": "^5.8.23",
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
   },
   "scripts": {
     "test": "mocha --compilers js:babel/register --colors --reporter spec"
   },
   "author": "Carlos de Dios <c.dedios@outlook.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "babel": "^5.8.23",
-    "chai": "^3.4.0",
-    "mocha": "^2.3.3"
-  }
+  "license": "MIT"
 }
