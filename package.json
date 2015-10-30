@@ -1,0 +1,19 @@
+{
+  "name": "mongo-stuff",
+  "version": "0.0.1",
+  "description": "Dummy App",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "^2.0.47"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --colors --reporter spec"
+  },
+  "author": "Carlos de Dios <c.dedios@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
